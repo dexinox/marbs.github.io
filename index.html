@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>three.js css3d - sprites</title>
+		<title>marbs</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="main.css">
@@ -17,16 +17,15 @@
 	</head>
 	<body>
 
-		<div id="info"><a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> css3d - sprites</div>
-		<div id="container"></div>
+		
 
 		<script type="module">
 
 			import * as THREE from '../build/three.module.js';
 
-			import { TWEEN } from './jsm/libs/tween.module.min.js';
-			import { TrackballControls } from './jsm/controls/TrackballControls.js';
-			import { CSS3DRenderer, CSS3DSprite } from './jsm/renderers/CSS3DRenderer.js';
+			import { TWEEN } from '../build/tween.module.min.js';
+			import { TrackballControls } from '../build/TrackballControls.js';
+			import { CSS3DRenderer, CSS3DSprite } from '../build/CSS3DRenderer.js';
 
 			var camera, scene, renderer;
 			var controls;
